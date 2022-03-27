@@ -65,12 +65,6 @@ toggle.addEventListener("click", () =>{
 document.body.classList.toggle("dark")
 moon.classList.toggle("fas")
 })
-
-// const back = document.querySelector(".back")
-// const countryModal = document.querySelector(".countryModal")
-// back.addEventListener("click" , () =>{
-// countryModal.classList.toggle("show")
-// })
 const countryModal = document.querySelector(".countryModal")
 function showCountryDetails(data) {
 countryModal.classList.toggle("show") 
